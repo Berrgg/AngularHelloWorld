@@ -6,7 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./favorite.component.css']
 })
 export class FavoriteComponent {
-    @Input('is-favorite') isFavorite: boolean;
+    @Input('isfavorite') isFavorite: boolean;
     @Output() change=new EventEmitter;
     values = '';
     title: string;
