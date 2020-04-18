@@ -13,7 +13,7 @@ export class FavoriteComponent {
 
     onClick(){
         this.isSelected = !this.isSelected;
-        this.change.emit();
+        this.change.emit(this.isSelected);
     }
 
     onKey(event: any){
