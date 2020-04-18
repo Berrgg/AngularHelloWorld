@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./favorite.component.css']
 })
 export class FavoriteComponent {
-    @Input() isFavorite: boolean;
+    @Input('is-favorite') isFavorite: boolean;
     values = '';
     title: string;
 
