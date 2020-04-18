@@ -11,12 +11,12 @@
 {{ title | titleCaseWord }} -->
 
 <i class="material-icons-outlined"
-    *ngIf="!isFavorite"
+    *ngIf="!isSelected"
     (click)=onClick()
 >favorite_border</i>
 
 <i class="material-icons"
-    *ngIf="isFavorite"
+    *ngIf="isSelected"
     (click)=onClick()
 >favorite</i>
 <p></p>

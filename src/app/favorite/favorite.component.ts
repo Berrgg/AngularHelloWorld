@@ -6,13 +6,13 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./favorite.component.css']
 })
 export class FavoriteComponent {
-    @Input('isfavorite') isFavorite: boolean;
+    @Input('isfavorite') isSelected: boolean;
     @Output() change=new EventEmitter;
     values = '';
     title: string;
 
     onClick(){
-        this.isFavorite = !this.isFavorite;
+        this.isSelected = !this.isSelected;
         this.change.emit();
     }
 
