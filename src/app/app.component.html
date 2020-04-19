@@ -2,9 +2,9 @@
 <favorite [isfavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></favorite> -->
 
 <bootstrap-panel>
-    <li class="heading">Heading</li>
-    <li class="body">
+    <ng-container class="heading">Heading 1</ng-container>
+    <ng-container class="body">
         <h2>Body</h2>
-        <p>Some text inside...</p>
-    </li>
+        <p>Some more text inside...</p>
+    </ng-container>
 </bootstrap-panel>
