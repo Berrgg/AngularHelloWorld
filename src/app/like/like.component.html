@@ -1,1 +1,11 @@
-<p>like works!</p>
+<i class="material-icons-outlined"
+    *ngIf="!isLiked"
+    (click)=onClick()>
+favorite_border
+</i>
+<i class="material-icons"
+    *ngIf="isLiked"
+    (click)=onClick()>
+favorite
+</i>
+<p></p>
