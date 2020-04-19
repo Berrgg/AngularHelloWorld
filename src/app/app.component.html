@@ -1,10 +1,15 @@
 <!-- <div>ANGULAR</div>
 <favorite [isfavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></favorite> -->
 
-<bootstrap-panel>
+<!-- <bootstrap-panel>
     <ng-container class="heading">Heading 1</ng-container>
     <ng-container class="body">
         <h2>Body</h2>
         <p>Some more text inside...</p>
     </ng-container>
-</bootstrap-panel>
+</bootstrap-panel> -->
+
+<like 
+    [likesCount] = "tweet.likesCount"
+    [isLiked]="tweet.isLiked">
+</like>

@@ -1,0 +1,12 @@
+.material-icons{
+    color: #ccc;
+    cursor: pointer;
+}
+
+.highlighted{
+    color: deeppink;
+}
+
+.like{
+    font-size: 24px;
+}
