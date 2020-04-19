@@ -20,6 +20,7 @@ export class AppComponent {
 
   tweet={
       body: "here is a body of the tweet",
+      isLiked: false,
       likesCount: 5
   }
 }

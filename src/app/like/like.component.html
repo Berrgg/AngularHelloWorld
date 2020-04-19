@@ -1,11 +1,7 @@
-<i class="material-icons-outlined"
-    *ngIf="!isLiked"
-    (click)=onClick()>
-favorite_border
-</i>
-<i class="material-icons"
-    *ngIf="isLiked"
+<span 
+    class="material-icons"
+    [class.highlighted]="isLiked"
     (click)=onClick()>
 favorite
-</i>
-<i>{{likesCount}}</i>
+</span>
+<span class="like">{{likesCount}}</span>

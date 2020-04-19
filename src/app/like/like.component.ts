@@ -14,5 +14,4 @@ export class LikeComponent {
 
         this.isLiked ? this.likesCount += 1 : this.likesCount -= 1
     }
-
 }
