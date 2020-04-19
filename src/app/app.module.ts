@@ -9,13 +9,15 @@ import { MatIconModule } from "@angular/material/icon";
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitleCaseWordPipe } from './title-case.pipe';
 import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FavoriteComponent,
     TitleCaseWordPipe,
-    PanelComponent
+    PanelComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
