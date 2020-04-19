@@ -8,12 +8,14 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitleCaseWordPipe } from './title-case.pipe';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FavoriteComponent,
-    TitleCaseWordPipe
+    TitleCaseWordPipe,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
